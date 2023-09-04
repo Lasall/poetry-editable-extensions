@@ -24,3 +24,8 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.build]
 script = "build.py"
 generate-setup-file = true
+
+[[tool.poetry.source]]
+name = "Local repo"
+url = "http://127.0.0.1:9000"
+priority = "default"
